@@ -1,0 +1,30 @@
+body{
+ display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: black;  
+}
+
+img{
+        width: 100%;
+    height: auto;
+}
+.cardpanel {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+  }
+.card.medium {
+  height: auto;
+}
+.h4{
+    text-align:center; 
+}
+#s12 m4 l8{
+    text-align: center;
+}
